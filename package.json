@@ -1,0 +1,26 @@
+{
+  "name": "react-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01": "http-server 01_simple-es5",
+    "02": "babel 02_jsx-babel/*.jsx -o 02_jsx-babel/script.js && http-server 02_jsx-babel",
+    "03": "babel 03_jsx-es6-babel/*.jsx -o 03_jsx-es6-babel/script.js && http-server 03_jsx-es6-babel",
+    "04": "babel 04_state-and-props/*.jsx -o 04_state-and-props/script.js && http-server 04_state-and-props",
+    "05": "babel 05_children-complex-jsx/*.jsx -o 05_children-complex-jsx/script.js && http-server 05_children-complex-jsx",
+    "06": "babel 06_simple-application-pattern/*.jsx -o 06_simple-application-pattern/script.js && http-server 06_simple-application-pattern",
+    "07": "babel 07_lifecycle/*.jsx -o 07_lifecycle/script.js && http-server 07_lifecycle"
+  },
+  "author": "Andreas Neumann",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
+}

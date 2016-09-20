@@ -1,0 +1,7 @@
+node_modules/
+02_jsx-babel/*.js
+03_jsx-es6-babel/*.js
+04_state-and-props/*.js
+05_children-complex-jsx/*.js
+06_simple-application-pattern/*.js
+07_lifecycle/*.js

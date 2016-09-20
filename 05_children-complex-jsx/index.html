@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>05</title>
+    <style>
+        .collapser-component {
+            margin: 10px;
+            padding: 10px;
+            background: rgb(200, 200, 200);
+        }
+        .collapser-content {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px;
+            background: rgb(255, 255, 255);
+        }
+        .collapser-component.collapsed .collapser-content {
+            visibility: hidden;
+            height: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>React-Testarea</h1>
+    <div id="testarea">
+        <div id="start-div"></div>
+    </div>
+
+    <script src="https://fb.me/react-15.0.0.js"></script>
+    <script src="https://fb.me/react-dom-15.0.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

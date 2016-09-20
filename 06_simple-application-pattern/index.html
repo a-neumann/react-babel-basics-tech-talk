@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple ES5 Example</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .product-list, .cart-display {
+            background: rgb(200, 200, 200);
+            padding: 5px;
+        }
+        .product-item, .cart-item {
+            margin: 10px;
+            padding: 5px;
+            border: 1px solid rgb(100, 100, 100);
+            background: rgb(240, 240, 240);
+        }
+        .amount-control a, .amount-control span {
+            display: inline-block;
+            margin: 2px;
+            padding: 2px;
+            border: 1px solid rgb(100, 100, 100);
+            background: rgb(240, 240, 240);
+        }
+        .cart-items {
+            list-style: none;
+            padding: 0;
+        }
+        .cart-items a {
+            text-decoration: none;
+        }
+        #app > * {
+            display: inline-block;
+            vertical-align: top;
+            margin: 5px;
+        }
+        #app .cart-display {
+            width: 200px;
+        }
+        #app .product-list {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testapp</h1>
+
+    <div id="root">
+    </div>
+
+    <script src="https://fb.me/react-15.0.0.js"></script>
+    <script src="https://fb.me/react-dom-15.0.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
