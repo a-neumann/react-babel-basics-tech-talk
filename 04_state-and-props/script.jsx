@@ -12,7 +12,7 @@ class Greeter extends React.Component {
     getGreeting(who) {
 
         if (!who) {
-            return "";
+            return null;
         }
 
         if (who === "Texas Ranger") {
@@ -23,7 +23,9 @@ class Greeter extends React.Component {
 
     clickedGreet() {
         var text = this.getGreeting(this.state.greet);
-        window.confirm(text);
+        if (text) {
+            window.confirm(text);
+        }
     }
 
     changeGreet(who) {
