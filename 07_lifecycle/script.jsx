@@ -77,7 +77,8 @@ class CrazyDomManipulator extends LoggingComponent {
     componentDidUpdate() {
 
         if (this.props.newText) {
-            // nicht zuhause nachmachen!
+            // Das Element wurde in ein reales DOM-Node gerendert. Also können wir es über diese Funktion finden.
+            // Nicht zuhause nachmachen!
             var p = ReactDOM.findDOMNode(this);
             p.innerText = this.props.newText;
         }

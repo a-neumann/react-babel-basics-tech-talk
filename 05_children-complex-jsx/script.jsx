@@ -44,7 +44,7 @@ var coll2 = <Collapser text="zeigen">Nummer 2</Collapser>;
 
 ReactDOM.render(
     (<div>
-        <Collapser text="zeigen">Die Nummer <b>1</b></Collapser>
+        <Collapser text="zeigen">Nummer <b>1</b></Collapser>
         {coll2}
         <Collapser text="zeigen" textOpened="verstecken" collapsed={false}>
             <div style={{ backgroundColor: "pink" }}>Nummer 3</div>
