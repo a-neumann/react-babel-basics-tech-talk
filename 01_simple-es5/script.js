@@ -29,7 +29,7 @@ var Greeter = React.createClass({
 });
 
 ReactDOM.render(
-    React.createElement(Greeter, { greet: "Freaks" }),
+    React.createElement(Greeter, { greet: "Chuck Norris" }),
     startDiv
 );
 

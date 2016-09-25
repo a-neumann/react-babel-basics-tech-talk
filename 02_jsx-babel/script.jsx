@@ -6,8 +6,9 @@ var startDiv = document.getElementById("start-div");
 
 var Greeter = React.createClass({
     getGreeting: function(who) {
-        if (who === "Nerds") {
-            who = "Softwareentwickler";
+
+        if (who === "Texas Ranger") {
+            who = "Chuck Norris";
         }
         return "Hallo " + who;
     },
@@ -25,8 +26,8 @@ var Greeter = React.createClass({
 
 ReactDOM.render(
     (<div>
-        <Greeter greet="Geeks" />
-        <Greeter greet="Nerds" />
+        <Greeter greet="Welt" />
+        <Greeter greet="Texas Ranger" />
     </div>),
     startDiv
 );
