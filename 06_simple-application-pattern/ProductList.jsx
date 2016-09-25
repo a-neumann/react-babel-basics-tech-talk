@@ -16,16 +16,11 @@ class ProductList extends React.Component {
             <a href="#" onClick={e => this.clickedAdd(product, e)}>add to Cart</a>
         </div>);
     }
-
-    renderEmpty() {
-        // key hinzufügen damit React nicht meckert
-        return <div key="0">keine Produkte vorhanden</div>;
-    }
     
     render()  {
 
         var prods = this.props.products;
-        var productElems = prods ? prods.map(p => this.renderProduct(p)) : [this.renderEmpty];
+        var productElems = prods.map(p => this.renderProduct(p));
 
         return (<div className="product-list">
             {productElems}

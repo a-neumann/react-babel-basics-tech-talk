@@ -1,6 +1,3 @@
-// items
-// onItemUpdate
-
 class ShoppingCart extends React.Component {
 
     static get defaultProps() {
